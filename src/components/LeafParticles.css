@@ -1,0 +1,23 @@
+.leaf-field {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.leaf-field__leaf {
+  position: absolute;
+  background: var(--color-leaf);
+  border-radius: 0 100% 0 100%;
+  opacity: 0.85;
+  animation: leaf-float 6s ease-in-out infinite;
+}
+
+@keyframes leaf-float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-18px) rotate(12deg);
+  }
+}

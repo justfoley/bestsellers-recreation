@@ -1,0 +1,23 @@
+:root {
+  --color-bg: #12132a;
+  --color-bg-soft: #1b1c3a;
+  --color-pink: #ff5f96;
+  --color-pink-deep: #e6407c;
+  --color-cream: #f8f7f2;
+  --color-text: var(--color-cream);
+  --color-text-dim: #b9b9d4;
+  --color-leaf: #8fd9a8;
+
+  --font-display: 'Baloo 2', 'Fredoka', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+
+  --pill-radius: 999px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 40px;
+  --space-5: 64px;
+  --space-6: 96px;
+
+  --header-height: 88px;
+}
