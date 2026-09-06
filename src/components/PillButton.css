@@ -1,0 +1,43 @@
+.pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  border: none;
+  border-radius: var(--pill-radius);
+  padding: 14px 28px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.pill-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+.pill-btn:active {
+  transform: translateY(0);
+}
+
+.pill-btn--pink {
+  background: var(--color-pink);
+  color: #2a0d1a;
+}
+
+.pill-btn--cream {
+  background: var(--color-cream);
+  color: var(--color-bg);
+}
+
+.pill-btn--outline {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.pill-btn--ghost {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-text);
+  padding: 10px 20px;
+}
